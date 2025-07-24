@@ -48,6 +48,8 @@
 #include <string.h>
 #include <stdint.h>
 
+const uint8_t curve25519_basepoint[32] = {9};
+
 #ifdef _MSC_VER
 #define inline __inline
 #endif
